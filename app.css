@@ -1,0 +1,26 @@
+
+
+.these-input {
+    grid-template-columns: 2fr 2fr ;
+    grid-auto-rows: minmax(20px, auto);
+}
+
+.input{
+    width: 100%;
+}
+
+.agreement{
+    height: 40px;
+    width: 40px !important;
+}
+
+.input{
+    background-color: rgba(240, 248, 255, 0);
+    border-color: yellow;
+}
+
+.agreement{
+    background-color: rgba(240, 248, 255, 0);
+    border-color: yellow;
+
+}
