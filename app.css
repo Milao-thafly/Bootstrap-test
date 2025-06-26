@@ -1,13 +1,209 @@
+@font-face {
+    font-family: "Orbitront";
+    src: url(./font/Orbitront/Orbitront/Orbitron/Orbitron-VariableFont_wght.ttf);
+    font-family: "Montserrat";
+    src: url(./font/Orbitront/Orbitront/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-family: "Roboto";
+    src: url(./font/Orbitront/Orbitront/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+@media screen and (max-width: 860px){
+
+    .navbar{
+        /* display: flex; */
+        flex-direction: column !important;
+        align-items: center;
+    }
+   .these-input {
+    
+    grid-template-columns: 1fr ;
+    grid-auto-rows: minmax(20px, auto) ;
+    
+}
+    #navbarNav{
+    display: none !important;
+}
+
+.nexus{
+    text-decoration: none;
+    font-size: 36px;
+}
+
+.logo{
+    width: 36px;
+    filter: brightness(0) saturate(100%) invert(77%) sepia(41%) saturate(746%) hue-rotate(1deg) brightness(105%) contrast(101%);
+} 
 
 
+
+.agreement{
+    height: 40px;
+    width: 40px !important;
+}
+
+input{
+    filter: drop-shadow( 4px 4px 24px#9b6ec281);
+    background-color: rgba(240, 248, 255, 0);
+    border-color: yellow;
+    width: 100%;
+}
+
+.agreement{
+    background-color: rgba(240, 248, 255, 0);
+    border-color: yellow;
+
+}
+
+#logo{
+    text-decoration: none;
+}
+
+.navbar-toggler-icon{
+    color: yellow;
+}
+
+
+.Nexusclash-quecece{
+    background-color: #d9d9d91f;
+    border: solid 1px transparent;
+    border-image: linear-gradient(#000000,#FFFFFF, #808080) 1;
+    
+
+}
+
+#Nexusclash-cqoi{
+    font-family: "Orbitront";
+    font-size: 36px;
+
+}
+
+.story-telling{
+    word-wrap: break-word;
+    font-family: "Roboto";
+    max-height: 350px;
+    overflow-y: auto;
+    font-size: 24px;
+
+}
+
+.Event-participate{
+    background: none;
+    border: none;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.CardOfFate{
+    display: column ;
+    align-items: center;
+    
+}
+
+
+.AllCard{
+    background-color: #3f258d31 ;
+    /* border: linear-gradiant(); */
+    border: solid 1px transparent;
+    border-image: linear-gradient(#000000,#FFFFFF, #808080) 1;
+    padding-top:  100px;
+    padding-bottom:  100px;
+}
+
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 350px;
+    height: 350px;
+    background-color: #7c4dff28;
+    filter: drop-shadow(0 0 24px#9b6ec281);
+    box-shadow : inset 13px 20px 17px #0000003d;
+    border: 1px solid #949494;
+    border-radius: 6px;
+    font-size: 24px;
+    font-family: "Montserrat";
+}
+.Starcraft{
+    width: 300px;
+    height: 250px;
+    padding-bottom: 15px;
+}
+
+.Isaac{
+    width: 300px;
+    height: 250px;
+    padding-bottom: 15px;
+}
+
+.Dontrun{
+    width: 300px;
+    height: 250px;
+    padding-bottom: 15px;
+}
+
+.Esport{
+    width: 300px;
+    height: 250px;
+    padding-bottom: 15px;
+}
+
+.Mma{
+    width: 300px;
+    height: 250px;
+    padding-bottom: 15px;
+}
+
+.FormSection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Form{
+    background-color: #d9d9d90c;
+    border: 1px solid grey;
+    border-radius: 6px;
+    /* background: linear-gradient(to bottom, #ffffff4f) padding-box,
+                linear-gradient(to top, #0000004b)border-box; */
+    
+}
+.FormSection .form-text{
+    font-family: "Orbitront";
+    box-shadow:(0 4px 24px#9b6ec281);
+    font-size: 16px !important;    
+}
+.input-title{
+    font-family: "Montserrat";
+}
+
+.text-ducheval{
+    font-size: 16px !important;
+    font-family: "Montserrat";
+}
+.Event-participate{
+    width: 328px;
+    height: 100px;
+    font-size: 24px !important;
+    font-family: "Roboto";
+}
+.footer-text{
+    font-size: 24px;
+}
+}
+@media screen and (min-width: 860px){
+
+.navbar-toggler-icon{
+    display: none;
+}
 .these-input {
-    grid-template-columns: 2fr 2fr ;
+    grid-template-columns: 2fr 2fr !important;
     grid-auto-rows: minmax(20px, auto);
 }
 
-.input{
-    width: 100%;
-}
+
 
 .agreement{
     height: 40px;
@@ -17,6 +213,8 @@
 .input{
     background-color: rgba(240, 248, 255, 0);
     border-color: yellow;
+    width: 100%;
+
 }
 
 .agreement{
@@ -24,3 +222,112 @@
     border-color: yellow;
 
 }
+
+#logo{
+    text-decoration: none;
+}
+
+
+.story-telling{
+    word-wrap: break-word;
+        max-height: 200px;
+        overflow-y: auto;
+        font-size: 24px;
+
+}
+
+.Event-participate{
+    background: none;
+    border: none;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.CardOfFate{
+    display: column ;
+    align-items: center;
+    
+}
+
+
+.AllCard{
+    background-color: #3f258d31 ;
+    /* border: linear-gradiant(); */
+    border: solid 1px transparent;
+    border-image: linear-gradient(#000000,#FFFFFF, #808080) 1;
+    padding-top:  150px;
+    padding-bottom:  150px;
+}
+
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 401px;
+    height: 324px;
+    background-color: #7c4dff28;
+    filter: drop-shadow(0 0 12px#9b6ec275);
+    box-shadow : inset 13px 20px 17px #0000003d;
+    border: 1px solid #949494;
+    border-radius: 6px;
+    
+}
+.Starcraft{
+    width: 350px;
+    height: 250px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+.Isaac{
+    width: 350px;
+    height: 250px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+.Dontrun{
+    width: 350px;
+    height: 250px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+.Esport{
+    width: 350px;
+    height: 250px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+.Mma{
+    width: 350px;
+    height: 250px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+.FormSection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Form{
+    background-color: #d9d9d90c;
+    border: 1px solid grey;
+    border-radius: 6px;
+    /* background: linear-gradient(to bottom, #ffffff4f) padding-box,
+                linear-gradient(to top, #0000004b)border-box; */
+    
+}
+.form-text{
+    filter: drop-shadow(0 0 24px#9b6ec281);
+    font-size: 16px !important;      
+}
+}
+
+
